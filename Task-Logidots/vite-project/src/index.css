@@ -1,0 +1,53 @@
+.outerdiv{
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 107%;
+  /* padding: 0; */
+  margin-left: -40px;
+  height: 195vh;
+}
+.leftdiv{
+  width:50%;
+  height:100vh;
+  background-color: black;
+}
+.rightdiv{
+  /* width:50%; */
+  height:100vh;
+  background-color:black;
+  color:white;
+  margin:0 auto;
+  margin-top:40px;
+}
+.innerrightdiv{
+  width:396px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.innerrightdiv .text{
+  width: 395px;
+  height: 37px;
+  margin-bottom: 10px;
+}
+.check{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+
+}
+.check input{
+  margin-bottom:15px;
+}
+.innerrightdiv button{
+  margin-top:10px;
+  width: 395px;
+    height: 37px;
+    background-color:  #B645FF;
+    color:white;
+    border-radius: 8px;
+}
+.innerrightdiv p {
+  font-size: 36px;
+}
